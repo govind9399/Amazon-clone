@@ -1,0 +1,147 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* box1 */
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  margin: 0 1px 5px 1px;
+  padding: 0 8px 1px 6px;
+}
+.logo {
+  background-image: url("amazon.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  border: none;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+/* box2 */
+.nav-address {
+  font-size: 12px;
+  color: #cccccc;
+  padding: 8px;
+  margin: 5px 2px 5px 0;
+}
+.add-icon {
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.add-first {
+  margin-left: 15px;
+}
+.add-second {
+  margin-left: 5px;
+}
+i {
+  margin-bottom: 5px;
+}
+
+/*box3*/
+.nav-search {
+  border: none;
+  display: flex;
+}
+.search-option {
+  color: #0f1111;
+  background-color: #e6e6e6;
+  height: 40px;
+  width: 52px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  height: 40px;
+  width: 500px;
+  background-color: #fff;
+  border: none;
+}
+.search-icon {
+  background-color: rgba(237, 179, 45, 0.8);
+  color: #0f1111;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 40;
+  width: 45px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nav-search:hover {
+  border: 2px solid rgb(221, 151, 20);
+}
+
+/*box 4*/
+.nav-signin {
+  font-size: 12px;
+}
+.nav-second {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*box 5*/
+.nav-return {
+  font-size: 12px;
+}
+
+/* box6*/
+.nav-cart {
+  margin-right: 5px;
+}
+.nav-cart i {
+  font-size: 35px;
+}
+
+/*panel*/
+.panel {
+  background-color: #222f3d;
+  height: 39px;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.menu{
+  margin-left:5px;
+  font-size:14px;
+  font-weight:700;
+  padding-top:7px;
+  padding-bottom: 7px;
+}
+.menu i{
+  height:17px;
+  width:14px;
+}
+.ops p {
+  display: inline;
+  margin-left: 25px;
+  padding: 7px 7px 7px 7px;
+}
